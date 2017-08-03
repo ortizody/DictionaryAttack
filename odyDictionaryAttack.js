@@ -15,9 +15,11 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-  for(var i=wordsList; i++
-
+  for (i = 0; i < wordsList; i++) { 
+    ;
+  }
 }
+  
       
       //here is what I know I want you to do.
       //you must have the whole list.
