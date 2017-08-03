@@ -15,5 +15,13 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
+  for(var i=wordsList; i++
 
 }
+      
+      //here is what I know I want you to do.
+      //you must have the whole list.
+      //With the list and the input I want it to check the list for the users inout.
+      //continue this. If there is no same input in the list, then say it's ok.
+      //if the user input matches. I want it to say that you can't create that pass word.
+      //What is needed: For loop, for password input 
