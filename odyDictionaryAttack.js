@@ -14,12 +14,8 @@ window.onload = init;
 
 /* ADD YOUR CODE BELOW */
 
-
-
 function checkPassword() {
-  
   var userInput = document.getElementById("pw").value;
-  
   for (i = 0; i < wordsList.length; i++) { 
     if (userInput == wordsList[i]){
       document.getElementById("results").innerHTML = "You need a stronger password";
