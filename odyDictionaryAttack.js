@@ -20,11 +20,10 @@ function checkPassword() {
   
   var userInput = document.getElementById("pw").value;
   
-  for (i = 0; i < wordsList; i++) { 
-    if (userInput == wordsList)
-      <p>This password does not work. . .Type in a new one</p>
-    elif (userInput != wrodsList)
-      <p>Great Password!<p>
+  for (i = 0; i < wordsList.length; i++) { 
+    if (userInput == wordsList[i]){
+    }else (userInput != wrodsList){
+    }
   }
 }
   
