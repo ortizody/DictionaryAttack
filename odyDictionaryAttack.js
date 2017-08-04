@@ -16,12 +16,7 @@ window.onload = init;
 
 function checkPassword() {
   for (i = 0; i < wordsList; i++) { 
-    if (hour < 18) {
-    greeting = "Good day";
-    } else {
-    greeting = "Good evening";
-      }
-    }
+    document.getElementById()
   }
 }
   
