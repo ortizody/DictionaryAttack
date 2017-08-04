@@ -16,8 +16,11 @@ window.onload = init;
 
 function checkPassword() {
   for (i = 0; i < wordsList; i++) { 
-    while (document.getElementById = wordsList){
-      <p>Your Pass word is not secure! Try Again.<p>
+    if (hour < 18) {
+    greeting = "Good day";
+    } else {
+    greeting = "Good evening";
+      }
     }
   }
 }
