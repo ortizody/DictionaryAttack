@@ -22,7 +22,9 @@ function checkPassword() {
   
   for (i = 0; i < wordsList.length; i++) { 
     if (userInput == wordsList[i]){
+      document.getElementById("results").innerHTML = "You need a stronger password";
     }else (userInput != wrodsList){
+      document.getElementById("results").innerHTML = "Great Password!";
     }
   }
 }
