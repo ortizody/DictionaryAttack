@@ -14,29 +14,17 @@ window.onload = init;
 
 /* ADD YOUR CODE BELOW */
 
-<html>
-<body>
-    <input type="text" id="userInput"=>give me input</input>
-    <button onclick="test()">Submit</button>
-    <script>
-        function test()
-        {
-            var userInput = document.getElementById("userInput").value;
-            document.write(userInput);
-        }
-    </script>
-</body>
-</html>
 
-//function checkPassword() {
+
+function checkPassword() {
   
-  //var userInput = document.getElementById("pw").value;
+  var userInput = document.getElementById("pw").value;
   
-  //for (i = 0; i < wordsList; i++) { 
-    //if (userInput == wordsList)
-      //<p>This password does not work. . .Type in a new one</p>
-    //elif (userInput != wrodsList)
-      //<p>Great Password!<p>
+  for (i = 0; i < wordsList; i++) { 
+    if (userInput == wordsList)
+      <p>This password does not work. . .Type in a new one</p>
+    elif (userInput != wrodsList)
+      <p>Great Password!<p>
   }
 }
   
