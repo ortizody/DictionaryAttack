@@ -16,7 +16,10 @@ window.onload = init;
 
 function checkPassword() {
   for (i = 0; i < wordsList; i++) { 
-    document.getElementById()
+    if (document.getElementById = wordsList)
+      <p>This password does not work. . .Type in a new one</p>
+    elif (document.getElementById /= wrodsList)
+      <p>Great Password!<p>
   }
 }
   
